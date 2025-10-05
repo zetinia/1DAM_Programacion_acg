@@ -12,7 +12,7 @@ public class Ejercicio13 {
 
 //Ahora creamos otra variable donde hacemos la operacion
 
-        float bytes = conversor * 0.125f;
+        float bytes = conversor * 8f;
 
 // Por ultimo realizamos el readline para mostrar el cambio
 
