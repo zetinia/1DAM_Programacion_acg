@@ -10,11 +10,14 @@ public class Ejericio8 {
         String escudo = (System.console().readLine(""));
 
 
-
+        //.equals es el igual para letras
+        
 
         if (escudo.equals("si")) {
          precio = precio + 2.5f;
+         System.out.println("Ok lo ponemos ");
         } else if (escudo.equals("no")){
+            System.out.println("OK, no lo ponemos ");
 
         }
     }
