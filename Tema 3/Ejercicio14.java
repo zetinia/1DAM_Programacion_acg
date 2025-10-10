@@ -12,7 +12,32 @@ public class Ejercicio14 {
 System.out.println("Elije una de las siguientes opciones:");
 
 
+String opciones = System.console().readLine("a) b) c) d):");
 
+
+switch (opciones) {
+    case "a":
+    String nombre = System.console().readLine("Cual es tu nombre?");
+    System.out.println("Feliz San " + nombre);
+        
+        break;
+
+    case "b":
+    int edad = Integer.parseInt(System.console().readLine());
+    System.out.println("Feliz " + edad + " cumpleaños ");
+
+    
+        break;
+
+
+    case "c":
+
+
+    
+
+
+
+}
 
     }
 }
