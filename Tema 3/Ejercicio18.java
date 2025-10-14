@@ -23,6 +23,7 @@ public class Ejercicio18 {
 
                 switch (juego) {
                     case 1:
+                    String elecsicionColor = System.console().readLine("Elige un color:");
                         double color = (int) Math.random() * 3;
                         if (color == 0) {
                             System.out.println("Rojo");
@@ -36,16 +37,17 @@ public class Ejercicio18 {
                         }
                         break;
                     case 2:
-                        double numero = (int) Math.random() * 37 ;
+                    int eleccion2 = Integer.parseInt(System.console().readLine("¿Cual eliges?:"));
+                        double numero = (int) Math.random() * 37;
 
-                        System.out.println("Numero " + numero);
+                        System.out.println(" Ha salido el Numero " + numero);
 
                         break;
 
                     case 3:
                         double seccion = (int) Math.random() * 3 + 1;
 
-                        System.out.println("Seccion "  +  seccion);
+                        System.out.println("Seccion " + seccion);
 
                         break;
 
