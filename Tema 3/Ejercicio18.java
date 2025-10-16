@@ -23,7 +23,7 @@ public class Ejercicio18 {
 
                 switch (juego) {
                     case 1:
-                    String elecsicionColor = System.console().readLine("Elige un color:");
+                    String elecionColor = System.console().readLine("Elige un color:");
                         double color = (int) Math.random() * 3;
                         if (color == 0) {
                             System.out.println("Rojo");
@@ -45,7 +45,7 @@ public class Ejercicio18 {
                         break;
 
                     case 3:
-                        double seccion = (int) Math.random() * 3 + 1;
+                        int seccion = (int) (Math.random() * 3 + 1);
 
                         System.out.println("Seccion " + seccion);
 
