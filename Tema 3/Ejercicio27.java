@@ -16,7 +16,7 @@ for(int i = 0; i<3; i++){
     contrasenaUsu = System.console().readLine("Introduce la contraseña:");
 
 
-    if(contrasenaUsu == constrasenaReal){
+    if(contrasenaUsu.equals(constrasenaReal)){
         System.out.println("Contraseña correcta");
         acierto = true;
         break;
