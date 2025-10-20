@@ -7,9 +7,19 @@ public class apuntesbucles {
         //Segundo hueco : condicion oara que siga contando 
         //Tercer hueco: cunadi incremente la variable en cada repet.
 
-        for (int i = 0; i < 10 ; i++) {
+        for (int i = 1; i < 10 ; i++) {
             System.out.println("hola");
         }
+        for (int i = 10;i <= 20; i=+2){
+            System.out.println("hola");
+        }
+
+        for (int i = 0;i<6; i++){
+            System.out.println(i);
+        }
+
+
+        System.out.println("Adios");
 
 
     }
