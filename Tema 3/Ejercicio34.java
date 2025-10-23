@@ -4,14 +4,14 @@ public class Ejercicio34 {
         
         float notas;
         float media;
-        do {
-             notas = Float.parseFloat(System.console().readLine("¿Introduce una nota"));
+        int contador ;
+       
+        while ( notas >= -1);
+        contador += 1;
 
-             notas += notas;
-             
-             media = notas;
+        media = notas + media;
 
-        } while ( notas >= 0);
+        media/notas;
 
         System.out.println("La media es de " + media);
 
