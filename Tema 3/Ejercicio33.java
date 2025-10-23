@@ -26,11 +26,11 @@ public class Ejercicio33 {
             
        do {ingreso = Integer.parseInt(System.console().readLine("¿Cuanto quieres ingresar?"));
          retirada = Integer.parseInt(System.console().readLine("Cuanto deseas retirar?"));
-            System.out.println(cuentaTotal);
-        
-       } while (cuentaTotal <= 0);
             
         
+       } while (cuentaTotal >= 0);
+            
+        System.out.println(cuentaTotal);
 
 
     }
