@@ -10,11 +10,14 @@ public class Ejercicio32 {
       String carac = "";
       int numVoc = 0;
 
-        do {
+        while (!carac.equals("0")) {
             carac = System.console().readLine("Introduce un caracterer");
-        } while (carac.equals("a"))||(carac.equals("e"))||(carac.equals("i"))||(carac.equals("o"))||(carac.equals("u")){
+          
+       if (carac.equals("a") || carac.equals("e")|| carac.equals("i")||carac.equals("o") ||   carac.equals("u")){ numVoc++;
 
+       }
+             
         }
-
+           
     }
 }
